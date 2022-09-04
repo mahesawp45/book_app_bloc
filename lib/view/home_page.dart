@@ -56,9 +56,7 @@ class HomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.blue.shade400,
                 border: MyBorderStyle.cuteBorder,
-                borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(50),
-                ),
+                borderRadius: MyBorderStyle.cuteRadius,
               ),
               child: Stack(
                 children: [
@@ -154,9 +152,7 @@ class HomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.white,
                           border: MyBorderStyle.cuteBorder,
-                          borderRadius: const BorderRadius.only(
-                            topLeft: Radius.circular(50),
-                          ),
+                          borderRadius: MyBorderStyle.cuteRadius,
                         ),
                         child: Column(
                           children: [
